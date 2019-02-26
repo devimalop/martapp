@@ -11,6 +11,7 @@ import 'framework7/css/framework7.css';
 import './css/icons.css';
 import './css/app.css';
 
+
 Framework7.use(Framework7Vue)
 
 
