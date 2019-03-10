@@ -3,6 +3,8 @@ import AboutPage from './pages/about.vue';
 import FormPage from './pages/form.vue';
 import DynamicRoutePage from './pages/dynamic-route.vue';
 import NotFoundPage from './pages/not-found.vue';
+import Draw from './pages/draw.vue';
+import Cat from './pages/cat.vue';
 
 import PanelLeftPage from './pages/panel-left.vue';
 import PanelRightPage from './pages/panel-right.vue';
@@ -27,6 +29,14 @@ export default [
   {
     path: '/form/',
     component: FormPage,
+  },
+  {
+    path: '/draw/',
+    component: Draw,
+  },
+  {
+    path: '/cat/',
+    component: Cat,
   },
   {
     path: '/dynamic-route/blog/:blogId/post/:postId/',

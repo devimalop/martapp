@@ -17,6 +17,6 @@ Framework7.use(Framework7Vue)
 
 Vue.config.productionTip = false
 
-new Vue({
+window.App = new Vue({
   render: h => h(App),
 }).$mount('#app')
