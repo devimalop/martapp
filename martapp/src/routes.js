@@ -29,7 +29,7 @@ export default [
     component: AboutPage,
   },
   {
-    path: '/sketchpad/',
+    path: '/sketchpad/:word',
     component: SketchPad,
   },
   {
