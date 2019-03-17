@@ -69,6 +69,7 @@ export default {
     return {
       // Framework7 parameters here
       f7params: {
+        initOnDeviceReady:true ,
         id: 'io.framework7.testapp', // App bundle ID
         name: 'Framework7', // App name
         theme: 'auto', // Automatic theme detection
@@ -76,6 +77,10 @@ export default {
         routes: routes,
       },
     }
+  },
+  mounted(){
+    document.addEventListener("backbutton", function(){alert("eooo")}, false);
+    
   }
 }
 </script>
